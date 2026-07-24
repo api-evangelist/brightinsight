@@ -1,9 +1,31 @@
 aid: brightinsight
 name: BrightInsight
-description: 'BrightInsight is a company surfaced as a portfolio company of general-catalyst, insight-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  BrightInsight is a regulated digital health platform for biopharma and medtech.
+  Its cloud-based, microservices platform captures, transmits and analyzes data
+  from CE-marked and FDA-regulated medical devices, combination products, apps
+  and Software as a Medical Device (SaMD) in compliance with global security,
+  privacy and regulatory requirements. The platform integrates with 400+ medical
+  devices across 50+ manufacturers, connects to EHRs in 500+ U.S. provider
+  networks, and is available in 48 countries. Founded in 2017 (formerly Flex
+  Digital Health) and based in Alviso, California, BrightInsight is used by top
+  biopharma and medtech companies to build and launch commercial regulated
+  digital health solutions. It is a sales-led enterprise platform with no public
+  developer portal or public API; integration is delivered under managed
+  engagements.
 url: https://raw.githubusercontent.com/api-evangelist/brightinsight/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.brightinsight.com/images/social-media-image.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Digital Health
+- Medtech
+- Biopharma
+- Software as a Medical Device
+- Medical Devices
+- Regulated
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +55,22 @@ maintainers:
 common:
 - type: Website
   url: https://brightinsight.com
+- type: Blog
+  url: https://brightinsight.com/blog
+- type: Support
+  url: https://brightinsight.com/contact-us
+- type: PrivacyPolicy
+  url: https://brightinsight.com/privacy-policy
+- type: Compliance
+  url: https://brightinsight.com/standards-regulations-and-certifications
+- type: TrustCenter
+  url: https://brightinsight.com/standards-regulations-and-certifications
+- type: Conformance
+  url: conformance/brightinsight-conformance.yml
+- type: DomainSecurity
+  url: security/brightinsight-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

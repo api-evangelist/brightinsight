@@ -1,0 +1,59 @@
+generated: '2026-07-18'
+method: searched
+source: https://brightinsight.com/standards-regulations-and-certifications
+summary: >-
+  BrightInsight operates a regulated digital health platform for biopharma and
+  medtech and publishes a Standards, Regulations & Certifications page stating
+  the platform regularly undergoes independent verification of security, privacy,
+  and compliance controls. The named certifications/standards below are quoted
+  from that page. No public OpenAPI is published, so cross-cutting API standards
+  (oauth2, rfc9457, pagination, idempotency) could not be derived or asserted.
+standards:
+  - id: iso-iec-27001
+    name: ISO/IEC 27001
+    conforms: true
+    evidence: Listed on standards-regulations-and-certifications page (information security management)
+  - id: iso-13485
+    name: ISO 13485
+    conforms: true
+    evidence: Listed on standards-regulations-and-certifications page (medical device quality management)
+  - id: hitrust-csf
+    name: HITRUST CSF
+    conforms: true
+    evidence: Listed on standards-regulations-and-certifications page
+  - id: hipaa
+    name: HIPAA
+    conforms: true
+    evidence: Listed on standards-regulations-and-certifications page
+  - id: gdpr
+    name: GDPR
+    conforms: true
+    evidence: Listed on standards-regulations-and-certifications page
+  - id: iec-62304
+    name: IEC 62304
+    conforms: true
+    evidence: Listed on standards-regulations-and-certifications page (medical device software lifecycle)
+  - id: iec-82304-1
+    name: IEC 82304-1
+    conforms: true
+    evidence: Listed on standards-regulations-and-certifications page (health software product safety)
+  - id: eu-mdr
+    name: EU Medical Device Regulation (MDR)
+    conforms: true
+    evidence: Listed on standards-regulations-and-certifications page
+  - id: ce-mark
+    name: CE Mark
+    conforms: true
+    evidence: Listed on standards-regulations-and-certifications page
+  - id: mdsap
+    name: Medical Device Single Audit Program (MDSAP)
+    conforms: true
+    evidence: Listed on standards-regulations-and-certifications page
+  - id: hds
+    name: HDS (Hebergeur de Donnees de Sante)
+    conforms: true
+    evidence: Listed on standards-regulations-and-certifications page (French health data hosting)
+  - id: eu-us-privacy-shield
+    name: Privacy Shield
+    conforms: true
+    evidence: Listed on standards-regulations-and-certifications page

@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://brightinsight.com/standards-regulations-and-certifications
+url: https://brightinsight.com/standards-regulations-and-certifications
+summary: >-
+  BrightInsight publishes a Standards, Regulations & Certifications page stating
+  the platform "regularly undergoes independent verification of security, privacy,
+  and compliance controls" and is "constantly working to expand" its coverage.
+  This serves as the provider's public trust/compliance surface (no dedicated
+  trust.brightinsight.com subdomain or /.well-known/security.txt was found).
+certifications:
+  - ISO/IEC 27001
+  - ISO 13485
+  - HITRUST CSF
+  - HIPAA
+  - GDPR
+  - IEC 62304
+  - IEC 82304-1
+  - EU Medical Device Regulation (MDR)
+  - CE Mark
+  - Medical Device Single Audit Program (MDSAP)
+  - HDS (Hebergeur de Donnees de Sante)
+  - Privacy Shield
+evidence:
+  - source: https://brightinsight.com/standards-regulations-and-certifications
+    keywords: [independent verification, security, privacy, compliance controls, certifications]
